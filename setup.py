@@ -6,13 +6,13 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
       long_description = f.read()
 
 setup(name='threephasescim',
-      version='0.9.5',
+      version='0.1.0',
 
       packages=find_packages(where='threephasescim'),
       package_dir={'': 'threephasescim'},
       package_data={'threephasescim/threephasescim/lookupTables' : ['*.xlsx']},
       
-      description='An obnoxious attempt to design three phase induction motors using Python 3',
+      description='An attempt to design three phase induction motors using Python 3',
       url='https://github.com/pranabendra/three-phase-scim',
       author='Pranabendra Prasad Chandra',
       author_email='pranabendrachandra@gmail.com',
