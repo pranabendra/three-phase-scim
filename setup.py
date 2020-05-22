@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(name='threephasescim',
-      version='0.9.1',
+      version='0.9.2',
 
       packages=find_packages(where='threephasescim'),
       package_dir={'': 'threephasescim'},
-      package_data={'threephasescim/lookupTables' : ['*.xlsx']},
+      package_data={'threephasescim/threephasescim/lookupTables' : ['*.xlsx']},
       
       description='An obnoxious attempt to design three phase induction motors using Python 3',
       url='https://github.com/pranabendra/three-phase-scim',
