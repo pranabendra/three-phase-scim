@@ -18,7 +18,7 @@ setup(name='threephasescim',
       package_dir={'': 'threephasescim'},
       package_data={'threephasescim/threephasescim/lookupTables' : ['*.xlsx']},
       
-      description='An attempt to design three phase induction motors using Python 3',
+      description='An attempt to design three phase squirrel cage induction motors using Python 3',
       url='https://github.com/pranabendra/three-phase-scim',
       author='Pranabendra Prasad Chandra',
       author_email='pranabendrachandra@gmail.com',
