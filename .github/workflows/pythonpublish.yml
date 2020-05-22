@@ -28,7 +28,7 @@ jobs:
     - name: Build and publish
       env:
         TWINE_USERNAME: pranabendra
-        TWINE_PASSWORD: ${{ secrets.secrets.test_pypi_password }}
+        TWINE_PASSWORD: ${{ secrets.test_pypi_password }}
       run: |
         python setup.py sdist bdist_wheel
         twine upload --repository testpypi dist/*
